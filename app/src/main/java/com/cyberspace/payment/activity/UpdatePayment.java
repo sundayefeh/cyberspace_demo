@@ -1,4 +1,4 @@
-package com.cyberspace.payment;
+package com.cyberspace.payment.activity;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.cyberspace.payment.R;
 import com.cyberspace.payment.dao.PaymentDAO;
 import com.cyberspace.payment.database.Builder;
 import com.cyberspace.payment.dto.PaymentDTO;
